@@ -1,0 +1,82 @@
+#logo {
+	float: left; margin-left: 38px; margin-top: 15px; color: #02acb5; font-family: "Rockwell Extra Bold", sans-serif; font-size: 38px; letter-spacing: 0.05em;
+} 
+
+.nav {
+	float: right; margin-right: 40px; margin-top: 14px;
+}
+
+.nav li {
+	float: right; list-style: none; margin-right: 10px; margin-top: 7px; font-family: "Franklin Gothic Medium"; color: #02acb5; font-size: 18px; letter-spacing: 0.07em;
+}
+
+// .nav {
+// 	float: left; margin-right: 40px; margin-top: 14px;
+// }
+
+// .nav li {
+// 	float: left; list-style: none; margin-left: 15px; margin-top: 7px; font-family: "Arial"; color: #ffff99; font-size: 18px; letter-spacing: 0.05em;
+// }
+
+.btn {
+	font-family: "Arial"; margin-top: 9px;
+}
+
+// .btn {
+// 	display: inline-block; z-index: 1000; float: right; /*margin-left: 40px; */margin-top: 9px; font-family: "Arial";
+// }
+
+// .leaflet-popup-content {
+// 	font-family: "Arial"; color: "blue"; font-size: 18px; letter-spacing: 0.05em;
+// }
+
+// h1 {
+// 	font-family: "Arial Black"; font-size: 18px;
+// }
+
+// p {
+// 	font-family: "Arial"; font-size: 24px; line-height: 40px;
+// }
+
+html, body {
+	height: 100%
+}
+
+.jumbotron {
+	background-color: #ede55f !important; 
+}
+
+.jumbotron p {
+	font-family: "Arial"; font-size: 12px; line-height: 35px;
+}
+
+.jumbotron h1 {
+	font-family: "Archivo Black", sans-serif; font-size: 8px; line-height: 75px; color: #02acb5 !important;
+}
+
+#LadyMap {
+	background: no-repeat; background-image: image-url("LadyMap.jpg"); clear: both; position: relative; display: block; margin-top: -30px !important; width: 100%; height: 680px; background-size: cover !important; 
+}
+
+#MapMan {
+	background: no-repeat; background-image: image-url("MapMan.jpg"); clear: both; position: relative; display: block; margin-top: -30px !important; width: 100%; height: 800px; background-size: cover !important; 
+}
+
+#map {
+	height: 100%; width: 100%; border-width: medium !important; border-color: #3a6869 !important;
+}
+
+.leaflet-container { background: transparent; }
+
+.leaflet-marker-icon { background: image-url("pin.png"); padding: 6px; padding-bottom: 17px; top: -6px; left: -6px; }
+
+.leaflet-popup-content { 
+	h2 { font-size: 18px; font-family: "Arial Black"; color: #02acb5 !important; }
+	.item { margin-bottom: 5px; font-size: 16px; }
+	.catname { font-family: "Arial"; font-size: 16px; }
+	.address { font-family: "Arial"; font-size: 16px; }
+	.phone { font-family: "Arial"; font-size: 16px; }
+	.web { font-family: "Arial Black"; font-size: 16px; }
+}
+
+// .name { font-size: 16px; font-family: "Arial Black"; color: "blue"; }
